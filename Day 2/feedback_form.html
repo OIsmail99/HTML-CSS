@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style_feedback.css">
+</head>
+
+<body>
+    <section class="container">
+        <form action="" id="feedback" class="feedback_form">
+            <div class="header">Feedback Form</div>
+            <div>
+                <label for="like">What did you like about the course?</label>
+                <input type="textarea" id="like" name="like">
+            </div>
+            <div>
+                <label for="dislike">What did you not like?</label>
+                <input type="text" id="dislike" name="dislike">
+            </div>
+            <div>
+                <label for="suggestions"></label> any suggestions on how to improve the content?
+                <input type="text" name="suggestions" id="suggestions">
+            </div>
+            <div class="meaning_field">
+                <label for="meaning">What is the meaning of life?</label>
+                <textarea name="meaning" readonly id="meaning"
+                    placeholder="to live in harmony with the will of God">to live in harmony with the will of God</textarea>
+            </div>
+            <input type="submit" value="submit" id="submit">
+        </form>
+    </section>
+</body>
+
+</html>
