@@ -1,0 +1,25 @@
+/* add padding and margin */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.comment-section {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.comment {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+}
+
+.comment-form {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
