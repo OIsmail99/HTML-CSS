@@ -18,7 +18,6 @@ body {}
     margin: 40px auto;
 }
 
-/* descendant selector */
 .container div {
     padding: 2px;
     margin: 1px;
