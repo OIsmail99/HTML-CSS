@@ -1,0 +1,31 @@
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 20px; /* Spacing between gallery items */
+    margin: 20px;
+  }
+  
+  
+  .gallery-item {
+    text-align: center;
+    max-width: 200px;
+  }
+  
+
+  .gallery-image {
+    width: 100%;
+    height: auto;
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    /* using a box-shadow generator */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  .caption {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+  }
+  

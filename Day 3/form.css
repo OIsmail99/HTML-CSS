@@ -1,0 +1,55 @@
+.form-container {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.form-container h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.survey-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.survey-form input[type="text"],
+.survey-form input[type="email"],
+.survey-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.survey-form fieldset {
+    margin-bottom: 15px;
+    border: none;
+    padding: 0;
+}
+
+.survey-form legend {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.survey-form label input[type="radio"] {
+    margin-right: 5px;
+}
+
+.survey-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
