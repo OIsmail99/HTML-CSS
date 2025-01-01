@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+.survey_fieldset {
+    width: 33%;
+}
+
+.survey_fieldset div {
+    padding: 3px;
+}
+
+[name="suggestions"] {
+    border: 1px solid salmon;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h1>Survey Form</h1>
+    <form action="">
+        <fieldset class="survey_fieldset">
+            <legend>How many hours do you spend on social media per week?</legend>
+            <div>
+                <label for="3-hours">
+                    <input type="radio" name="hours" id="3-hours" value="3"> 3 hours
+                </label>
+            </div>
+            <div>
+                <label for="5-hours">
+                    <input type="radio" name="hours" id="5-hours" value="5"> 5 hours
+                </label>
+            </div>
+
+            <div>
+                <label for="more-hours">
+                    <input type="radio" name="hours" id="more-hours" value="more than 5"> More than 5 hours
+                </label>
+            </div>
+            <div>
+                <label for="suggestions">How will you deal with that?</label>
+                <div>
+                    <textarea name="suggestions" id="suggestions"></textarea>
+                </div>
+            </div>
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+
+</html>
